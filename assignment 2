@@ -1,0 +1,15 @@
+def max(x):
+  max= x[0] 
+  for check in x: 
+    if check > max: 
+      max = check 
+  return max
+def min(x):
+  min = x[0] 
+  for check in x: 
+    if check < min: 
+      min = check 
+  return min
+list = [2, 6, 8, 14, 3, 77, 63]
+print("Maximum of the list", max(list))
+print("Minimum of the list", min(list))
